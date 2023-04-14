@@ -1,0 +1,63 @@
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  width: 110px;
+  height: 50px;
+  font-size: 18px;
+  line-height: 28px;
+  background: none;
+  border-radius: 5px;
+}
+
+.btn-log-out {
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  color: rgba(0, 0, 0, 0.75);
+  margin-left: 30px;
+}
+
+.btn-log-out:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.author-name {
+  display: block;
+  margin-left: 27px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: right;
+}
+
+.user-avatar {
+  width: 46px;
+  height: 46px;
+  margin-left: 12px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.user-avatar img {
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.create-article {
+  padding: 6px 10px;
+  color: #52c41a;
+  border: 1px solid #52c41a;
+  border-radius: 5px;
+}
+
+.create-article:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #52c41a;
+}

@@ -1,0 +1,160 @@
+.new-article-container {
+  width: 940px;
+  min-height: 700px;
+  margin: 60px auto;
+  padding-bottom: 40px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  box-shadow: 0 22px 106px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+
+.title {
+  width: 874px;
+  margin: 50px auto 20px auto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #262626;
+}
+
+.form {
+  width: 874px;
+  margin: auto;
+}
+
+.text-input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin: 0 auto 12px auto;
+  padding: 0 12px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+}
+
+.text-input.tag {
+  display: inline;
+  width: 300px;
+  margin-left: 0;
+}
+
+textarea.text-input {
+  height: 168px;
+  padding-top: 5px;
+}
+
+.error-input {
+  border: 1px solid #f5222d;
+}
+
+.message {
+  position: relative;
+  top: -10px;
+  color: #f5222d;
+}
+
+.text-input::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #bfbfbf;
+}
+
+.text-input:focus {
+  border: 1px solid #005de5;
+  outline: none;
+}
+
+.error-input.text-input:focus {
+  border: 1px solid #f5222d;
+  outline: none;
+}
+
+.text-label {
+  display: block;
+  width: 100%;
+  margin: 3px auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #262626;
+}
+
+.agreement {
+  width: 320px;
+  height: 52px;
+  margin: 20px auto;
+  padding-top: 10px;
+  border-top: 1px solid #e8e8e8;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.checkbox input {
+  width: 16px;
+  height: 16px;
+}
+
+.btn {
+  display: block;
+  width: 319px;
+  height: 40px;
+  margin: 20px auto 10px 0;
+  background: #1890ff;
+  border-radius: 4px;
+
+  outline: none;
+  border: none;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.btn-disable {
+  background-color: grey;
+}
+
+.btn:hover:not(.btn-disable) {
+  filter: drop-shadow(0px 4px 9px #1890ff);
+}
+
+.btn-delete-tag {
+  display: inline;
+  width: 110px;
+  height: 40px;
+  margin-left: 17px;
+  font-size: 16px;
+  line-height: 28px;
+  background: none;
+  border-radius: 5px;
+  color: #f5222d;
+  border: 1px solid #f5222d;
+}
+
+.btn-add-tag {
+  display: inline;
+  width: 110px;
+  height: 40px;
+  margin-left: 17px;
+  font-size: 16px;
+  line-height: 28px;
+  background: none;
+  border-radius: 5px;
+  color: #1890ff;
+  border: 1px solid #1890ff;
+}
+
+.error-input:invalid {
+  border: 1px solid #f5222d;
+}

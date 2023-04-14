@@ -1,0 +1,142 @@
+.container {
+  padding: 16px;
+  margin-bottom: 25px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #fff;
+  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.15));
+}
+
+.header {
+  display: flex;
+}
+
+.left-block {
+  width: 680px;
+}
+
+.right-block {
+  margin-left: auto;
+}
+
+.right-block-first-floor {
+  display: flex;
+}
+
+.right-block-second-floor {
+  margin-top: 12px;
+  display: flex;
+  justify-content: right;
+}
+
+.title-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #1890ff;
+  margin: 0 15px 0 0;
+}
+
+.tag {
+  margin-bottom: 5px;
+}
+
+.tag span {
+  margin-right: 5px;
+  padding: 2px 5px;
+
+  color: rgba(0, 0, 0, 0.5);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+
+.text {
+  height: 50px;
+  overflow: hidden;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.author-date-block > * {
+  text-align: right;
+}
+
+.author-name {
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: right;
+}
+
+.date {
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: -5px;
+}
+
+.user-avatar {
+  width: 46px;
+  height: 46px;
+  margin-left: 12px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.user-avatar img {
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.btn {
+  height: 32px;
+  margin-left: 12px;
+  padding: 0 17px;
+  font-size: 14px;
+  line-height: 28px;
+  background: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-delete {
+  color: #f5222d;
+  border: 1px solid #f5222d;
+}
+
+.btn-delete:hover {
+  background-color: #f5222d;
+  color: #fff;
+}
+
+.btn-edit {
+  color: #52c41a;
+  border: 1px solid #52c41a;
+}
+
+.btn-edit:hover {
+  background-color: #52c41a;
+  color: #fff;
+}

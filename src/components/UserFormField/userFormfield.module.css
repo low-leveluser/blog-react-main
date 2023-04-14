@@ -1,0 +1,48 @@
+.field {
+  display: block;
+  width: 320px;
+  height: 40px;
+  margin: 0 auto 12px auto;
+  padding: 0 12px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+}
+
+.field::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #bfbfbf;
+}
+
+.field:focus {
+  border: 1px solid #005de5;
+  outline: none;
+}
+
+.error-field {
+  border: 1px solid #f5222d;
+}
+
+.error-field:focus {
+  border: 2px solid #f5222d;
+  outline: none;
+}
+
+.label {
+  display: block;
+  width: 320px;
+  margin: 3px auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #262626;
+}
+
+.message {
+  position: relative;
+  top: -10px;
+  color: #f5222d;
+}

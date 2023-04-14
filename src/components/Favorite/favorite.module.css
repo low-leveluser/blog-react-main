@@ -1,0 +1,14 @@
+.favoritesCount {
+  display: flex;
+  align-items: center;
+}
+
+.favoritesCount button {
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+.favoritesCount img {
+  margin-right: 5px;
+}

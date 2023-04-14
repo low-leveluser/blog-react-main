@@ -1,0 +1,20 @@
+.agreement {
+  width: 320px;
+  height: 52px;
+  margin: 20px auto;
+  padding-top: 10px;
+  border-top: 1px solid #e8e8e8;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.checkbox input {
+  width: 16px;
+  height: 16px;
+}
+
+.message {
+  color: #f5222d;
+}
